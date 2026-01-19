@@ -1,4 +1,4 @@
-module github.com/aquasecurity/trivy
+module github.com/deliveroo/trivy
 
 go 1.25.0
 
