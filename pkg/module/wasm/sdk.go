@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/aquasecurity/trivy/pkg/module/api"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/module/api"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 // allocations holds byte slices keyed by their 32-bit pointers (offsets in WASM memory).

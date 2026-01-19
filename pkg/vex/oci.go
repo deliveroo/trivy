@@ -6,10 +6,10 @@ import (
 	"github.com/openvex/discovery/pkg/discovery"
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/purl"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/purl"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 type OCI struct{}

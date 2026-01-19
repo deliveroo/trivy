@@ -1,9 +1,9 @@
 package ssm
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ssm"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/ssm"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) ssm.SSM {

@@ -10,10 +10,10 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/sbom/core"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 type SBOMReferenceSet struct {

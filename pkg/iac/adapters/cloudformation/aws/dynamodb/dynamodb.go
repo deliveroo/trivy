@@ -1,8 +1,8 @@
 package dynamodb
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/dynamodb"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/dynamodb"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts a dynamodb instance

@@ -27,9 +27,9 @@ import (
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	xos "github.com/deliveroo/trivy/pkg/x/os"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 const (

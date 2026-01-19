@@ -16,13 +16,13 @@ import (
 	"github.com/open-policy-agent/opa/v1/util"
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/iac/framework"
-	"github.com/aquasecurity/trivy/pkg/iac/providers"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"github.com/deliveroo/trivy/pkg/iac/framework"
+	"github.com/deliveroo/trivy/pkg/iac/providers"
+	"github.com/deliveroo/trivy/pkg/iac/scan"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/options"
+	"github.com/deliveroo/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/set"
 )
 
 // CompileErrorLimit defines the default compile error limit.

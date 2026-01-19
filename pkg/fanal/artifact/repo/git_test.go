@@ -12,15 +12,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/gittest"
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/fanal/walker"
-	"github.com/aquasecurity/trivy/pkg/uuid"
+	"github.com/deliveroo/trivy/internal/gittest"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/fanal/walker"
+	"github.com/deliveroo/trivy/pkg/uuid"
 
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/all"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/secret"
+	_ "github.com/deliveroo/trivy/pkg/fanal/analyzer/config/all"
+	_ "github.com/deliveroo/trivy/pkg/fanal/analyzer/secret"
 )
 
 func TestNewArtifact(t *testing.T) {

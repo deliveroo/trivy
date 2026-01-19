@@ -4,9 +4,9 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/orderedmap"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/orderedmap"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/vars"
+	"github.com/deliveroo/trivy/pkg/set"
 )
 
 type rawGroup struct {

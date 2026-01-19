@@ -1,8 +1,8 @@
 package executor
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
+	"github.com/deliveroo/trivy/pkg/iac/rego"
+	"github.com/deliveroo/trivy/pkg/iac/scan"
 )
 
 type Option func(s *Executor)

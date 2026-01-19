@@ -15,13 +15,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/clock"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/report"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	tspdx "github.com/aquasecurity/trivy/pkg/sbom/spdx"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/uuid"
+	"github.com/deliveroo/trivy/pkg/clock"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/report"
+	"github.com/deliveroo/trivy/pkg/sbom/core"
+	tspdx "github.com/deliveroo/trivy/pkg/sbom/spdx"
+	"github.com/deliveroo/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/uuid"
 )
 
 func annotation(t *testing.T, comment string) spdx.Annotation {

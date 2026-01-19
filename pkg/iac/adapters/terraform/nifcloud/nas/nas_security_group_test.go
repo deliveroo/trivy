@@ -3,10 +3,10 @@ package nas
 import (
 	"testing"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/tftestutil"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud/nas"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/tftestutil"
+	"github.com/deliveroo/trivy/pkg/iac/providers/nifcloud/nas"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Test_adaptNASSecurityGroups(t *testing.T) {

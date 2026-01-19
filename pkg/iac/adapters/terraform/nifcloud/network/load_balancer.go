@@ -1,9 +1,9 @@
 package network
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/nifcloud/network"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/nifcloud/network"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func adaptLoadBalancers(modules terraform.Modules) []network.LoadBalancer {

@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"io/fs"
 
-	adapter "github.com/aquasecurity/trivy/pkg/iac/adapters/cloudformation"
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	adapter "github.com/deliveroo/trivy/pkg/iac/adapters/cloudformation"
+	"github.com/deliveroo/trivy/pkg/iac/rego"
+	"github.com/deliveroo/trivy/pkg/iac/scan"
+	"github.com/deliveroo/trivy/pkg/iac/scanners"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/options"
+	"github.com/deliveroo/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 func WithParameters(params map[string]any) options.ScannerOption {

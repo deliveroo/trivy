@@ -10,13 +10,13 @@ import (
 	"github.com/package-url/packageurl-go"
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/purl"
-	"github.com/aquasecurity/trivy/pkg/scan/utils"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/dependency"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/purl"
+	"github.com/deliveroo/trivy/pkg/scan/utils"
+	"github.com/deliveroo/trivy/pkg/types"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 type Config struct {

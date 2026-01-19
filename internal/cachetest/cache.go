@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 type WantArtifact struct {

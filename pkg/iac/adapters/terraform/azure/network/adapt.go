@@ -3,11 +3,11 @@ package network
 import (
 	"github.com/google/uuid"
 
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/common"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/network"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/common"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/network"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 func parsePortRange(input string, meta iacTypes.Metadata) common.PortRange {

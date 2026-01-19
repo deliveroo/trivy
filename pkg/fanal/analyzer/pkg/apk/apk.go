@@ -15,12 +15,12 @@ import (
 	apkVersion "github.com/knqyf263/go-apk-version"
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/digest"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/licensing"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"github.com/deliveroo/trivy/pkg/digest"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/licensing"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/set"
 )
 
 func init() {

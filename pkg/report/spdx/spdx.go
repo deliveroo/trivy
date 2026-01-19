@@ -9,8 +9,8 @@ import (
 	"github.com/spdx/tools-golang/tagvalue"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/sbom/spdx"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/sbom/spdx"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 type Writer struct {

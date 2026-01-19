@@ -7,8 +7,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 func init() {

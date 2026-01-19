@@ -7,11 +7,11 @@ import (
 
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
-	xstrings "github.com/aquasecurity/trivy/pkg/x/strings"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/types"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
+	xstrings "github.com/deliveroo/trivy/pkg/x/strings"
 )
 
 var (

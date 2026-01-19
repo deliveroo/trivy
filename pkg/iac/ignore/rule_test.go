@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/trivy/pkg/iac/ignore"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/ignore"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func metadataWithLine(path string, line int) types.Metadata {

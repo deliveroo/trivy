@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/kubernetes"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/providers/kubernetes"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
 )
 
 var versionRegex = regexp.MustCompile(`^v\d+(beta\d+)?$`)

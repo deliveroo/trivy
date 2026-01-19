@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/detector/ospkg/seal"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/detector/ospkg/seal"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 func TestProvider(t *testing.T) {

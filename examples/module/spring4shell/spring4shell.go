@@ -13,11 +13,11 @@ import (
 	"strconv"
 	"strings"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/module/api"
-	"github.com/aquasecurity/trivy/pkg/module/serialize"
-	"github.com/aquasecurity/trivy/pkg/module/wasm"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/module/api"
+	"github.com/deliveroo/trivy/pkg/module/serialize"
+	"github.com/deliveroo/trivy/pkg/module/wasm"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 const (

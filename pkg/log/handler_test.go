@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 func TestColorHandler(t *testing.T) {

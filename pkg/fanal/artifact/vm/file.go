@@ -12,12 +12,12 @@ import (
 	"github.com/opencontainers/go-digest"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/fanal/vm"
-	"github.com/aquasecurity/trivy/pkg/fanal/vm/disk"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/fanal/vm"
+	"github.com/deliveroo/trivy/pkg/fanal/vm/disk"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 // default vmdk block size 64 KB

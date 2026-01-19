@@ -1,6 +1,6 @@
 package cosmosdb
 
-import iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+import iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 
 type CosmosDB struct {
 	Accounts []Account

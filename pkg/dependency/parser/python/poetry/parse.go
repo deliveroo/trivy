@@ -8,11 +8,11 @@ import (
 	"golang.org/x/xerrors"
 
 	version "github.com/aquasecurity/go-pep440-version"
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/python"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	"github.com/deliveroo/trivy/pkg/dependency"
+	"github.com/deliveroo/trivy/pkg/dependency/parser/python"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	xio "github.com/deliveroo/trivy/pkg/x/io"
 )
 
 type Lockfile struct {

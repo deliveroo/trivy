@@ -1,7 +1,7 @@
 package scan
 
 import (
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact"
 )
 
 // Bridge to expose scan internals to tests in the scan_test package.

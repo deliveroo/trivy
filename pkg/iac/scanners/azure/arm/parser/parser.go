@@ -7,9 +7,9 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure/resolver"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/azure"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/azure/resolver"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 type Parser struct {

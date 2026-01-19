@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/cftypes"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/cftypes"
 )
 
 func ResolveSub(property *Property) (resolved *Property, success bool) {

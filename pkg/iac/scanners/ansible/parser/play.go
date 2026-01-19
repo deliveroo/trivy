@@ -5,9 +5,9 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/fsutils"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/fsutils"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/vars"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 // Playbook represents a sequence of plays in an Ansible playbook.

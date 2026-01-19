@@ -1,9 +1,9 @@
 package mq
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/mq"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/mq"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func getBrokers(ctx parser.FileContext) (brokers []mq.Broker) {

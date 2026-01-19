@@ -8,17 +8,17 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"golang.org/x/xerrors"
 
-	cr "github.com/aquasecurity/trivy/pkg/compliance/report"
-	"github.com/aquasecurity/trivy/pkg/extension"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/report/cyclonedx"
-	"github.com/aquasecurity/trivy/pkg/report/github"
-	"github.com/aquasecurity/trivy/pkg/report/predicate"
-	"github.com/aquasecurity/trivy/pkg/report/spdx"
-	"github.com/aquasecurity/trivy/pkg/report/table"
-	"github.com/aquasecurity/trivy/pkg/types"
+	cr "github.com/deliveroo/trivy/pkg/compliance/report"
+	"github.com/deliveroo/trivy/pkg/extension"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/flag"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/report/cyclonedx"
+	"github.com/deliveroo/trivy/pkg/report/github"
+	"github.com/deliveroo/trivy/pkg/report/predicate"
+	"github.com/deliveroo/trivy/pkg/report/spdx"
+	"github.com/deliveroo/trivy/pkg/report/table"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 const (

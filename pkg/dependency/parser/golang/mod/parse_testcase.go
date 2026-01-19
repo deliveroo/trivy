@@ -3,7 +3,7 @@ package mod
 import (
 	"slices"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 var (

@@ -10,8 +10,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/mapfs"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/mapfs"
 )
 
 const TerraformMainFile = "main.tf"

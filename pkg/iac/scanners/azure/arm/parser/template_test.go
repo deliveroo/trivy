@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/azure"
 )
 
 func Test_JSONUnmarshal(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/fsutils"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/fsutils"
 )
 
 const (

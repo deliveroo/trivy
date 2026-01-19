@@ -1,8 +1,8 @@
 package s3
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/s3"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/s3"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) s3.S3 {

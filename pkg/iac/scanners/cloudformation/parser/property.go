@@ -11,9 +11,9 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/cftypes"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/cftypes"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
+	xjson "github.com/deliveroo/trivy/pkg/x/json"
 )
 
 type EqualityOptions = int

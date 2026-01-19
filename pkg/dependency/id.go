@@ -6,8 +6,8 @@ import (
 
 	"github.com/mitchellh/hashstructure/v2"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 // ID returns a unique ID for the given library.

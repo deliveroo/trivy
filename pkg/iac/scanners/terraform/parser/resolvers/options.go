@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 type Options struct {

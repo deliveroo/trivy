@@ -5,13 +5,13 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/javadb"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/policy"
-	"github.com/aquasecurity/trivy/pkg/vex/repo"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/db"
+	"github.com/deliveroo/trivy/pkg/flag"
+	"github.com/deliveroo/trivy/pkg/javadb"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/policy"
+	"github.com/deliveroo/trivy/pkg/vex/repo"
 )
 
 func Run(ctx context.Context, opts flag.Options) error {

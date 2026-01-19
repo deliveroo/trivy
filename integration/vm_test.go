@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 // TestVM tests scanning VM images (VMDK, disk images).

@@ -1,8 +1,8 @@
 package s3
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/s3"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/parser"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/s3"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/parser"
 )
 
 func Adapt(tasks parser.ResolvedTasks) s3.S3 {

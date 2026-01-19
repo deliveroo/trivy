@@ -7,8 +7,8 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 // RuleSectionParser defines the interface for parsing ignore rules.

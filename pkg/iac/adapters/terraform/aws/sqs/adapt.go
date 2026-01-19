@@ -4,11 +4,11 @@ import (
 	"github.com/google/uuid"
 
 	"github.com/aquasecurity/iamgo"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/aws/iam"
-	iamp "github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/sqs"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/aws/iam"
+	iamp "github.com/deliveroo/trivy/pkg/iac/providers/aws/iam"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/sqs"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) sqs.SQS {

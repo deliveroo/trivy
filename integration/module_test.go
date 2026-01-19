@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/aquasecurity/trivy/pkg/extension"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/extension"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 // TestModule tests Trivy with Wasm modules.

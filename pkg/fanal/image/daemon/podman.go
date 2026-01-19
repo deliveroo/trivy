@@ -15,7 +15,7 @@ import (
 	"github.com/docker/docker/client"
 	"golang.org/x/xerrors"
 
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
+	xos "github.com/deliveroo/trivy/pkg/x/os"
 )
 
 var (

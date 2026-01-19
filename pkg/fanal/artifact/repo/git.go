@@ -10,12 +10,12 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact/local"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/fanal/walker"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact/local"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/fanal/walker"
+	xos "github.com/deliveroo/trivy/pkg/x/os"
 )
 
 var _ Walker = (*walker.FS)(nil)

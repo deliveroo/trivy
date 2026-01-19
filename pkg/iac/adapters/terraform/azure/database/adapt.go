@@ -1,8 +1,8 @@
 package database
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/database"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/database"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) database.Database {

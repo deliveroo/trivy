@@ -3,9 +3,9 @@ package ec2
 import (
 	"strconv"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ec2"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/ec2"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 type naclAdapter struct {

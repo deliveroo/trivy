@@ -1,8 +1,8 @@
 package neptune
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/neptune"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/neptune"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts a Neptune instance

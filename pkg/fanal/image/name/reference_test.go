@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/fanal/image/name"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/fanal/image/name"
 )
 
 func TestReference_MarshalJSON(t *testing.T) {

@@ -14,9 +14,9 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"
 
-	"github.com/aquasecurity/trivy/pkg/iac/terraform/context"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"github.com/deliveroo/trivy/pkg/iac/terraform/context"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/set"
 )
 
 type Block struct {

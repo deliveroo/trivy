@@ -22,9 +22,9 @@ import (
 
 	"github.com/aquasecurity/testdocker/auth"
 	"github.com/aquasecurity/testdocker/registry"
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/purl"
-	"github.com/aquasecurity/trivy/pkg/vex"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/purl"
+	"github.com/deliveroo/trivy/pkg/vex"
 )
 
 func setUpRegistry(t *testing.T) (*httptest.Server, v1.Hash) {

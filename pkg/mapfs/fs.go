@@ -13,7 +13,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	xsync "github.com/aquasecurity/trivy/pkg/x/sync"
+	xsync "github.com/deliveroo/trivy/pkg/x/sync"
 )
 
 type allFS interface {

@@ -1,8 +1,8 @@
 package elasticache
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/elasticache"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/elasticache"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
 )
 
 func getSecurityGroups(ctx parser.FileContext) (securityGroups []elasticache.SecurityGroup) {

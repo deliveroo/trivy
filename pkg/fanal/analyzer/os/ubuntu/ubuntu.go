@@ -9,9 +9,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	fos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	fos "github.com/deliveroo/trivy/pkg/fanal/analyzer/os"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 func init() {

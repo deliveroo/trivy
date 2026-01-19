@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraformplan/tfjson"
+	"github.com/deliveroo/trivy/pkg/iac/rego"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/options"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/terraformplan/tfjson"
 )
 
 const defaultCheck = `package defsec.abcdefg

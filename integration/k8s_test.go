@@ -11,8 +11,8 @@ import (
 
 	cdx "github.com/CycloneDX/cyclonedx-go"
 
-	"github.com/aquasecurity/trivy/pkg/k8s/report"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/k8s/report"
+	"github.com/deliveroo/trivy/pkg/types"
 
 	"github.com/samber/lo"
 	"github.com/stretchr/testify/assert"

@@ -1,7 +1,7 @@
 package swift
 
 import (
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	xjson "github.com/deliveroo/trivy/pkg/x/json"
 )
 
 type LockFile struct {

@@ -6,9 +6,9 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 // Applier defines operation to scan image layers

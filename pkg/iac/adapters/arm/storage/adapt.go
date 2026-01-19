@@ -3,10 +3,10 @@ package storage
 import (
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/storage"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/storage"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/azure"
+	"github.com/deliveroo/trivy/pkg/iac/types"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 func Adapt(deployment azure.Deployment) storage.Storage {

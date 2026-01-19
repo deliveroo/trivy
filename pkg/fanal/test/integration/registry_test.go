@@ -17,18 +17,18 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/applier"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	aimage "github.com/aquasecurity/trivy/pkg/fanal/artifact/image"
-	"github.com/aquasecurity/trivy/pkg/fanal/image"
-	testdocker "github.com/aquasecurity/trivy/pkg/fanal/test/integration/docker"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/fanal/applier"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact"
+	aimage "github.com/deliveroo/trivy/pkg/fanal/artifact/image"
+	"github.com/deliveroo/trivy/pkg/fanal/image"
+	testdocker "github.com/deliveroo/trivy/pkg/fanal/test/integration/docker"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	xhttp "github.com/deliveroo/trivy/pkg/x/http"
 
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/all"
+	_ "github.com/deliveroo/trivy/pkg/fanal/analyzer/all"
 )
 
 const (

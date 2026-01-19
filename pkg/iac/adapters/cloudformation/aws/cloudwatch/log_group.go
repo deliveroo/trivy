@@ -1,8 +1,8 @@
 package cloudwatch
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/cloudwatch"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/cloudwatch"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
 )
 
 func getLogGroups(ctx parser.FileContext) (logGroups []cloudwatch.LogGroup) {

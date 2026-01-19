@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 func Test_FindInMap(t *testing.T) {

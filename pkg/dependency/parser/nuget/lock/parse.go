@@ -6,11 +6,11 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/utils"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	"github.com/deliveroo/trivy/pkg/dependency"
+	"github.com/deliveroo/trivy/pkg/dependency/parser/utils"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	xio "github.com/deliveroo/trivy/pkg/x/io"
+	xjson "github.com/deliveroo/trivy/pkg/x/json"
 )
 
 type LockFile struct {

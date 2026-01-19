@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/severity"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/iac/rego"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/options"
+	"github.com/deliveroo/trivy/pkg/iac/severity"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Test_RegoScanning_Deny(t *testing.T) {

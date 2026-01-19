@@ -2,10 +2,10 @@ package sam
 
 import (
 	"github.com/aquasecurity/iamgo"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/sam"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/iam"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/sam"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func getFunctions(cfFile parser.FileContext) (functions []sam.Function) {

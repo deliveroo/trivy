@@ -11,9 +11,9 @@ import (
 	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
+	"github.com/deliveroo/trivy/pkg/flag"
+	"github.com/deliveroo/trivy/pkg/log"
+	xhttp "github.com/deliveroo/trivy/pkg/x/http"
 )
 
 func Login(ctx context.Context, registry string, opts flag.Options) error {

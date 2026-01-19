@@ -5,7 +5,7 @@ package integration
 import (
 	"testing"
 
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 // TestConvert tests the convert command with various output formats.

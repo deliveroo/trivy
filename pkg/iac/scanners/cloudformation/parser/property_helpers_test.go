@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/cftypes"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/cftypes"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Test_EqualTo(t *testing.T) {

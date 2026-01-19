@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/aquasecurity/trivy/pkg/extension"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/extension"
+	"github.com/deliveroo/trivy/pkg/flag"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 type testHook struct{}

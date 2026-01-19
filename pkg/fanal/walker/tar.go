@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/utils"
+	"github.com/deliveroo/trivy/pkg/fanal/utils"
 )
 
 const (

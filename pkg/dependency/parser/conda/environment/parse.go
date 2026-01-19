@@ -9,9 +9,9 @@ import (
 	"gopkg.in/yaml.v3"
 
 	"github.com/aquasecurity/go-version/pkg/version"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	xio "github.com/deliveroo/trivy/pkg/x/io"
 )
 
 type environment struct {

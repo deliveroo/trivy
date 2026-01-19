@@ -3,8 +3,8 @@ package driver
 import (
 	"context"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 // Driver defines operations for OS package scan

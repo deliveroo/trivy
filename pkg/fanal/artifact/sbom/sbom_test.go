@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/cachetest"
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact/sbom"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/internal/cachetest"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact/sbom"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 func TestArtifact_Inspect(t *testing.T) {

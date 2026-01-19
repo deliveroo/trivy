@@ -13,7 +13,7 @@ import (
 	v1 "github.com/google/go-containerregistry/pkg/v1"
 	"github.com/magefile/mage/sh"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/internal/testutil"
 )
 
 const dir = "integration/testdata/fixtures/images/"

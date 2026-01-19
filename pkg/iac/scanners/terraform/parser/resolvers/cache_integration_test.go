@@ -14,10 +14,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/gittest"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraform/parser/resolvers"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
+	"github.com/deliveroo/trivy/internal/gittest"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/terraform/parser/resolvers"
+	"github.com/deliveroo/trivy/pkg/log"
+	xhttp "github.com/deliveroo/trivy/pkg/x/http"
 )
 
 type moduleResolver interface {

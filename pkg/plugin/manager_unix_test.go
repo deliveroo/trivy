@@ -18,12 +18,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/gittest"
-	"github.com/aquasecurity/trivy/pkg/clock"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/plugin"
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
+	"github.com/deliveroo/trivy/internal/gittest"
+	"github.com/deliveroo/trivy/pkg/clock"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/plugin"
+	"github.com/deliveroo/trivy/pkg/utils/fsutils"
 )
 
 func setupGitRepository(t *testing.T, repo, dir string) *httptest.Server {

@@ -14,17 +14,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/applier"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	aimage "github.com/aquasecurity/trivy/pkg/fanal/artifact/image"
-	"github.com/aquasecurity/trivy/pkg/fanal/image"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/fanal/applier"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact"
+	aimage "github.com/deliveroo/trivy/pkg/fanal/artifact/image"
+	"github.com/deliveroo/trivy/pkg/fanal/image"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
 
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/all"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/handler/all"
+	_ "github.com/deliveroo/trivy/pkg/fanal/analyzer/all"
+	_ "github.com/deliveroo/trivy/pkg/fanal/handler/all"
 	_ "modernc.org/sqlite"
 )
 

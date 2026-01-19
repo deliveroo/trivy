@@ -12,8 +12,8 @@ import (
 
 	"github.com/aquasecurity/table"
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	pkgReport "github.com/aquasecurity/trivy/pkg/report/table"
-	"github.com/aquasecurity/trivy/pkg/types"
+	pkgReport "github.com/deliveroo/trivy/pkg/report/table"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 type SummaryWriter struct {

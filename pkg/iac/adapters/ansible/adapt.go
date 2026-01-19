@@ -1,10 +1,10 @@
 package ansible
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/ansible/aws/s3"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/state"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/ansible/aws/s3"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/parser"
+	"github.com/deliveroo/trivy/pkg/iac/state"
 )
 
 func Adapt(tasks parser.ResolvedTasks) state.State {

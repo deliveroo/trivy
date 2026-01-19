@@ -15,12 +15,12 @@ import (
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
 	redhat "github.com/aquasecurity/trivy-db/pkg/vulnsrc/redhat-oval"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	osver "github.com/aquasecurity/trivy/pkg/detector/ospkg/version"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/scan/utils"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	osver "github.com/deliveroo/trivy/pkg/detector/ospkg/version"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/scan/utils"
+	"github.com/deliveroo/trivy/pkg/types"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 var (

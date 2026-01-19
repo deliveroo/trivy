@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/helm"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"github.com/deliveroo/trivy/pkg/iac/rego"
+	"github.com/deliveroo/trivy/pkg/iac/scan"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/helm"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/options"
+	"github.com/deliveroo/trivy/pkg/set"
 )
 
 func TestScanner_ScanFS(t *testing.T) {

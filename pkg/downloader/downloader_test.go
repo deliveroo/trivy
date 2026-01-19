@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/downloader"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
+	"github.com/deliveroo/trivy/pkg/downloader"
+	xhttp "github.com/deliveroo/trivy/pkg/x/http"
 )
 
 func TestDownload(t *testing.T) {

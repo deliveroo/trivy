@@ -1,7 +1,7 @@
 package schemas
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 var SchemaMap = map[types.Source]Schema{

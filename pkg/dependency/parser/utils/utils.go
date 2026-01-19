@@ -7,7 +7,7 @@ import (
 
 	"github.com/samber/lo"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 func UniquePackages(pkgs []ftypes.Package) []ftypes.Package {

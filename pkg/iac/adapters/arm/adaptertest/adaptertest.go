@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure/arm/parser"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/azure"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/azure/arm/parser"
 )
 
 type adaptFn[T any] func(deployment azure.Deployment) T

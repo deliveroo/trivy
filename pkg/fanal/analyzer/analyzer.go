@@ -16,13 +16,13 @@ import (
 	"golang.org/x/sync/semaphore"
 	"golang.org/x/xerrors"
 
-	fos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/licensing"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/misconf"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	fos "github.com/deliveroo/trivy/pkg/fanal/analyzer/os"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/licensing"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/misconf"
+	xio "github.com/deliveroo/trivy/pkg/x/io"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 var (

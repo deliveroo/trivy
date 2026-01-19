@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 func Parse(r io.Reader) (lib ftypes.Package, err error) {

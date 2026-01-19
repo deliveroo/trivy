@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/require"
 
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/compliance/spec"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xstrings "github.com/aquasecurity/trivy/pkg/x/strings"
+	"github.com/deliveroo/trivy/pkg/compliance/spec"
+	"github.com/deliveroo/trivy/pkg/flag"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/types"
+	xstrings "github.com/deliveroo/trivy/pkg/x/strings"
 )
 
 func TestReportFlagGroup_ToOptions(t *testing.T) {

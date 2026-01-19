@@ -15,14 +15,14 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/downloader"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/remote"
-	"github.com/aquasecurity/trivy/pkg/version/doc"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/downloader"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/remote"
+	"github.com/deliveroo/trivy/pkg/version/doc"
+	xio "github.com/deliveroo/trivy/pkg/x/io"
+	xos "github.com/deliveroo/trivy/pkg/x/os"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 const (

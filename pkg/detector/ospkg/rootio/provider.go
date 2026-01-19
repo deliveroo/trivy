@@ -3,9 +3,9 @@ package rootio
 import (
 	"regexp"
 
-	"github.com/aquasecurity/trivy/pkg/detector/ospkg/driver"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/scan/utils"
+	"github.com/deliveroo/trivy/pkg/detector/ospkg/driver"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/scan/utils"
 )
 
 var (

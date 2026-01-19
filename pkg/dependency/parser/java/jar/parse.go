@@ -18,10 +18,10 @@ import (
 	mavenversion "github.com/masahiro331/go-mvn-version"
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	xio "github.com/deliveroo/trivy/pkg/x/io"
+	xos "github.com/deliveroo/trivy/pkg/x/os"
 )
 
 var (

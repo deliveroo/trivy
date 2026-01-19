@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/config"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/config"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts a configurationaggregator instance

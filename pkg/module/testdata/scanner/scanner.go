@@ -4,10 +4,10 @@
 package main
 
 import (
-	"github.com/aquasecurity/trivy/pkg/module/api"
-	"github.com/aquasecurity/trivy/pkg/module/serialize"
-	"github.com/aquasecurity/trivy/pkg/module/wasm"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/module/api"
+	"github.com/deliveroo/trivy/pkg/module/serialize"
+	"github.com/deliveroo/trivy/pkg/module/wasm"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 const (

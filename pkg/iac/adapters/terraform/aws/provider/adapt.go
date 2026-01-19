@@ -1,9 +1,9 @@
 package provider
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 const (

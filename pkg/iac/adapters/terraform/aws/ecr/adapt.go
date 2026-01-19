@@ -2,11 +2,11 @@ package ecr
 
 import (
 	"github.com/aquasecurity/iamgo"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/aws/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ecr"
-	iamp "github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/aws/iam"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/ecr"
+	iamp "github.com/deliveroo/trivy/pkg/iac/providers/aws/iam"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) ecr.ECR {

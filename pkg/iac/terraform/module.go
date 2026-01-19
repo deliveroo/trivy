@@ -3,7 +3,7 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/aquasecurity/trivy/pkg/iac/ignore"
+	"github.com/deliveroo/trivy/pkg/iac/ignore"
 )
 
 type Module struct {

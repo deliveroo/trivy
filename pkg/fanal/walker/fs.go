@@ -9,9 +9,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/utils"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	"github.com/deliveroo/trivy/pkg/fanal/utils"
+	"github.com/deliveroo/trivy/pkg/log"
+	xio "github.com/deliveroo/trivy/pkg/x/io"
 )
 
 // FS is the filesystem walker

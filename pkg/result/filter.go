@@ -14,9 +14,9 @@ import (
 	"golang.org/x/xerrors"
 
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/vex"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/vex"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 const (

@@ -13,13 +13,13 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/fsutils"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/inventory"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/fsutils"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/inventory"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/vars"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/set"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 const (

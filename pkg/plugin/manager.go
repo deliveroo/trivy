@@ -13,11 +13,11 @@ import (
 	"gopkg.in/yaml.v3"
 
 	"github.com/aquasecurity/go-version/pkg/semver"
-	"github.com/aquasecurity/trivy/pkg/downloader"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/downloader"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/utils/fsutils"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 const configFile = "plugin.yaml"

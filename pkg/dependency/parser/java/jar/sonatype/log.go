@@ -4,7 +4,7 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 // logger implements LeveledLogger

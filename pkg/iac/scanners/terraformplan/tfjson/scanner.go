@@ -6,11 +6,11 @@ import (
 	"io"
 	"io/fs"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraformplan/tfjson/parser"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/iac/scan"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/options"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/terraformplan/tfjson/parser"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 type Scanner struct {

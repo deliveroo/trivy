@@ -11,15 +11,15 @@ import (
 
 	"github.com/aquasecurity/trivy-db/pkg/db"
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/internal/dbtest"
-	"github.com/aquasecurity/trivy/internal/hooktest"
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/applier"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/scan/langpkg"
-	"github.com/aquasecurity/trivy/pkg/scan/ospkg"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/vulnerability"
+	"github.com/deliveroo/trivy/internal/dbtest"
+	"github.com/deliveroo/trivy/internal/hooktest"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/applier"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/scan/langpkg"
+	"github.com/deliveroo/trivy/pkg/scan/ospkg"
+	"github.com/deliveroo/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/vulnerability"
 )
 
 var (

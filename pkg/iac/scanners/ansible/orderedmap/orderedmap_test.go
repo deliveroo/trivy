@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/orderedmap"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/orderedmap"
 )
 
 func makeSampleMap() *orderedmap.OrderedMap[string, int] {

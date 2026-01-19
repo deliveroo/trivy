@@ -1,8 +1,8 @@
 package datafactory
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/datafactory"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/datafactory"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/azure"
 )
 
 func Adapt(deployment azure.Deployment) datafactory.DataFactory {

@@ -5,7 +5,7 @@ package trivy.common;
 import "google/protobuf/struct.proto";
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/aquasecurity/trivy/rpc/common;common";
+option go_package = "github.com/deliveroo/trivy/rpc/common;common";
 
 message OS {
   string family = 1;

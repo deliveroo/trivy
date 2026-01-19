@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/image/name"
+	"github.com/deliveroo/trivy/pkg/fanal/image/name"
 )
 
 var (

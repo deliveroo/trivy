@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/require"
 
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/internal/hooktest"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/report"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/deliveroo/trivy/internal/hooktest"
+	"github.com/deliveroo/trivy/pkg/flag"
+	"github.com/deliveroo/trivy/pkg/report"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 func TestResults_Failed(t *testing.T) {

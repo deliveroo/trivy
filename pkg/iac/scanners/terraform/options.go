@@ -4,10 +4,10 @@ import (
 	"io/fs"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraform/executor"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraform/parser"
+	"github.com/deliveroo/trivy/pkg/iac/scan"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/options"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/terraform/executor"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/terraform/parser"
 )
 
 type ConfigurableTerraformScanner interface {

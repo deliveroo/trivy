@@ -10,9 +10,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/commands"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/commands"
+	"github.com/deliveroo/trivy/pkg/flag"
+	"github.com/deliveroo/trivy/pkg/log"
 	"github.com/spf13/cobra/doc"
 )
 

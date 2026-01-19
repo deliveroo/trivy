@@ -3,9 +3,9 @@ package keyvault
 import (
 	"time"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/keyvault"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/keyvault"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) keyvault.KeyVault {

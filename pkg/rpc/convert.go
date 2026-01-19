@@ -11,14 +11,14 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/digest"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
-	"github.com/aquasecurity/trivy/rpc/cache"
-	"github.com/aquasecurity/trivy/rpc/common"
-	"github.com/aquasecurity/trivy/rpc/scanner"
+	"github.com/deliveroo/trivy/pkg/digest"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/types"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/rpc/cache"
+	"github.com/deliveroo/trivy/rpc/common"
+	"github.com/deliveroo/trivy/rpc/scanner"
 )
 
 var LicenseCategoryMap = map[common.LicenseCategory_Enum]ftypes.LicenseCategory{

@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
+	"github.com/deliveroo/trivy/pkg/log"
+	xos "github.com/deliveroo/trivy/pkg/x/os"
 )
 
 // NotifyContext returns a context that is canceled when SIGINT or SIGTERM is received.

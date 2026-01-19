@@ -1,8 +1,8 @@
 package ec2
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ec2"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/ec2"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
 )
 
 func adaptRequestedAMIs(modules terraform.Modules) []ec2.RequestedAMI {

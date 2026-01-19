@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/commands/clean"
-	"github.com/aquasecurity/trivy/pkg/flag"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/commands/clean"
+	"github.com/deliveroo/trivy/pkg/flag"
 )
 
 func TestRun(t *testing.T) {

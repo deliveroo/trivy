@@ -10,10 +10,10 @@ import (
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
 	echoDb "github.com/aquasecurity/trivy-db/pkg/vulnsrc/echo"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/scan/utils"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/scan/utils"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 type Scanner struct {

@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/s3"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/parser"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/s3"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/parser"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func TestAdapt(t *testing.T) {

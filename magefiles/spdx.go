@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/downloader"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/downloader"
+	"github.com/deliveroo/trivy/pkg/log"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 const (

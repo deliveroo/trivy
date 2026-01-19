@@ -4,7 +4,7 @@ package trivy.scanner.v1;
 
 import "rpc/common/service.proto";
 
-option go_package = "github.com/aquasecurity/trivy/rpc/scanner;scanner";
+option go_package = "github.com/deliveroo/trivy/rpc/scanner;scanner";
 
 service Scanner {
   rpc Scan(ScanRequest) returns (ScanResponse);

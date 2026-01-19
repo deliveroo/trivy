@@ -23,7 +23,7 @@ import (
 	"golang.org/x/vuln/scan"
 
 	"github.com/aquasecurity/go-version/pkg/version"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 const (

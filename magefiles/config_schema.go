@@ -11,7 +11,7 @@ import (
 
 	"github.com/invopop/jsonschema"
 
-	"github.com/aquasecurity/trivy/pkg/flag"
+	"github.com/deliveroo/trivy/pkg/flag"
 )
 
 // JSON Schema type constants

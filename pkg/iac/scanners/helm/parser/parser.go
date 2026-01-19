@@ -21,9 +21,9 @@ import (
 	"helm.sh/helm/v3/pkg/release"
 	"helm.sh/helm/v3/pkg/releaseutil"
 
-	"github.com/aquasecurity/trivy/pkg/iac/detection"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/mapfs"
+	"github.com/deliveroo/trivy/pkg/iac/detection"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/mapfs"
 )
 
 var manifestNameRegex = regexp.MustCompile("# Source: [^/]+/(.+)")

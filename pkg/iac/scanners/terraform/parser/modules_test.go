@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/internal/testutil"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 func TestFindRootModules(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
+	"github.com/deliveroo/trivy/pkg/utils/fsutils"
 )
 
 const nuspecExt = "nuspec"

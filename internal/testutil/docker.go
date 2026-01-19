@@ -13,7 +13,7 @@ import (
 	"github.com/google/go-containerregistry/pkg/v1/tarball"
 	"github.com/stretchr/testify/require"
 
-	gzutil "github.com/aquasecurity/trivy/pkg/fanal/utils/gzip"
+	gzutil "github.com/deliveroo/trivy/pkg/fanal/utils/gzip"
 )
 
 type DockerClient struct {

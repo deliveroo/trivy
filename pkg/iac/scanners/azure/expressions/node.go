@@ -1,7 +1,7 @@
 package expressions
 
 import (
-	functions2 "github.com/aquasecurity/trivy/pkg/iac/scanners/azure/functions"
+	functions2 "github.com/deliveroo/trivy/pkg/iac/scanners/azure/functions"
 )
 
 type Node interface {

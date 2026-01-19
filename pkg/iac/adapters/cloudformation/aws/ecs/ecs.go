@@ -1,8 +1,8 @@
 package ecs
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ecs"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/ecs"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts an ECS instance

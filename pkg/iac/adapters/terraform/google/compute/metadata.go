@@ -1,9 +1,9 @@
 package compute
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google/compute"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/google/compute"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 // TODO: add support for google_compute_project_metadata_item

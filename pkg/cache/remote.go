@@ -7,11 +7,11 @@ import (
 	"github.com/twitchtv/twirp"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/rpc"
-	"github.com/aquasecurity/trivy/pkg/rpc/client"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
-	rpcCache "github.com/aquasecurity/trivy/rpc/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/rpc"
+	"github.com/deliveroo/trivy/pkg/rpc/client"
+	xhttp "github.com/deliveroo/trivy/pkg/x/http"
+	rpcCache "github.com/deliveroo/trivy/rpc/cache"
 )
 
 var _ ArtifactCache = (*RemoteCache)(nil)

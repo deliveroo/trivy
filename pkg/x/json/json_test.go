@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	xjson "github.com/deliveroo/trivy/pkg/x/json"
 )
 
 // See npm.LockFile

@@ -3,10 +3,10 @@ package ec2
 import (
 	"strconv"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ec2"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/cftypes"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/ec2"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/cftypes"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func getNetworkACLs(ctx parser.FileContext) (acls []ec2.NetworkACL) {

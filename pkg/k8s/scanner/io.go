@@ -11,8 +11,8 @@ import (
 	"gopkg.in/yaml.v3"
 
 	"github.com/aquasecurity/trivy-kubernetes/pkg/artifacts"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
+	"github.com/deliveroo/trivy/pkg/log"
+	xos "github.com/deliveroo/trivy/pkg/x/os"
 )
 
 var r = regexp.MustCompile("[\\\\/:*?<>]")

@@ -1,16 +1,16 @@
 package google
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/bigquery"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/compute"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/dns"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/gke"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/kms"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/sql"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google/storage"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/google"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/google/bigquery"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/google/compute"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/google/dns"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/google/gke"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/google/iam"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/google/kms"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/google/sql"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/google/storage"
+	"github.com/deliveroo/trivy/pkg/iac/providers/google"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) google.Google {

@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	sbomio "github.com/aquasecurity/trivy/pkg/sbom/io"
-	"github.com/aquasecurity/trivy/pkg/sbom/spdx"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	sbomio "github.com/deliveroo/trivy/pkg/sbom/io"
+	"github.com/deliveroo/trivy/pkg/sbom/spdx"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 func TestUnmarshaler_Unmarshal(t *testing.T) {

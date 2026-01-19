@@ -138,7 +138,7 @@ $ go mod init github.com/aquasecurity/trivy-module-wordpress
 package main
 
 import (
-    "github.com/aquasecurity/trivy/pkg/module/wasm"
+    "github.com/deliveroo/trivy/pkg/module/wasm"
 )
 
 const (

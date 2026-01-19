@@ -15,8 +15,8 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/image/registry/intf"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/fanal/image/registry/intf"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 type RegistryClient struct {

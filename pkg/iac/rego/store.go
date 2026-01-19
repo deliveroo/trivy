@@ -8,8 +8,8 @@ import (
 	"github.com/open-policy-agent/opa/v1/loader"
 	"github.com/open-policy-agent/opa/v1/storage"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/set"
 )
 
 var dataFileExtensions = set.NewCaseInsensitive(".yaml", ".yml", ".json")

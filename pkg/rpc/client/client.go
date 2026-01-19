@@ -8,14 +8,14 @@ import (
 	"github.com/twitchtv/twirp"
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	r "github.com/aquasecurity/trivy/pkg/rpc"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
-	"github.com/aquasecurity/trivy/pkg/x/slices"
-	xstrings "github.com/aquasecurity/trivy/pkg/x/strings"
-	"github.com/aquasecurity/trivy/rpc/common"
-	rpc "github.com/aquasecurity/trivy/rpc/scanner"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	r "github.com/deliveroo/trivy/pkg/rpc"
+	"github.com/deliveroo/trivy/pkg/types"
+	xhttp "github.com/deliveroo/trivy/pkg/x/http"
+	"github.com/deliveroo/trivy/pkg/x/slices"
+	xstrings "github.com/deliveroo/trivy/pkg/x/strings"
+	"github.com/deliveroo/trivy/rpc/common"
+	rpc "github.com/deliveroo/trivy/rpc/scanner"
 )
 
 type options struct {

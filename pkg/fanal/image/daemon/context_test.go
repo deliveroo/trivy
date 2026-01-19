@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/image/daemon"
+	"github.com/deliveroo/trivy/pkg/fanal/image/daemon"
 )
 
 const testContextName = "test-context"

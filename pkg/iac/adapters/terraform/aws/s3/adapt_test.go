@@ -7,11 +7,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/aquasecurity/iamgo"
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/tftestutil"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/s3"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/tftestutil"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/iam"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/s3"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Test_PublicAccessBlock(t *testing.T) {

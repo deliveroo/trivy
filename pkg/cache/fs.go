@@ -13,7 +13,7 @@ import (
 	bberrors "go.etcd.io/bbolt/errors"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 const defaultFSCacheTimeout = 5 * time.Second

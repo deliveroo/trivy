@@ -8,11 +8,11 @@ import (
 
 	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	"github.com/aquasecurity/trivy/pkg/compliance/report"
-	"github.com/aquasecurity/trivy/pkg/compliance/spec"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/compliance/report"
+	"github.com/deliveroo/trivy/pkg/compliance/spec"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 func TestBuildComplianceReport(t *testing.T) {

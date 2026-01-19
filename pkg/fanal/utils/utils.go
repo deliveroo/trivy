@@ -15,9 +15,9 @@ import (
 	"github.com/bmatcuk/doublestar/v4"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/log"
+	xio "github.com/deliveroo/trivy/pkg/x/io"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 var PathSeparator = fmt.Sprintf("%c", os.PathSeparator)

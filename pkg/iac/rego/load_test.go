@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	checks "github.com/aquasecurity/trivy-checks"
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/iac/rego"
+	"github.com/deliveroo/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 //go:embed all:testdata/policies

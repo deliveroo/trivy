@@ -11,12 +11,12 @@ import (
 	"github.com/in-toto/in-toto-golang/in_toto"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/attestation"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
-	"github.com/aquasecurity/trivy/pkg/sbom/cyclonedx"
-	sbomio "github.com/aquasecurity/trivy/pkg/sbom/io"
-	"github.com/aquasecurity/trivy/pkg/sbom/spdx"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/deliveroo/trivy/pkg/attestation"
+	"github.com/deliveroo/trivy/pkg/sbom/core"
+	"github.com/deliveroo/trivy/pkg/sbom/cyclonedx"
+	sbomio "github.com/deliveroo/trivy/pkg/sbom/io"
+	"github.com/deliveroo/trivy/pkg/sbom/spdx"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 type Format string

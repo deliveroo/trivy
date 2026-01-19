@@ -8,8 +8,8 @@ import (
 	"github.com/hashicorp/hcl/v2/json"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/iac/terraform/context"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/terraform/context"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Test_AllReferences(t *testing.T) {

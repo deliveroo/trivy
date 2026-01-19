@@ -10,10 +10,10 @@ import (
 	"gopkg.in/yaml.v3"
 
 	"github.com/aquasecurity/trivy-checks/pkg/specs"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
-	"github.com/aquasecurity/trivy/pkg/types"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/set"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 type Severity string

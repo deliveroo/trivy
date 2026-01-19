@@ -14,8 +14,8 @@ import (
 	"github.com/nikolalohinski/gonja/v2/loaders"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/fsutils"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/fsutils"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/vars"
 )
 
 var gonjaConfig *config.Config

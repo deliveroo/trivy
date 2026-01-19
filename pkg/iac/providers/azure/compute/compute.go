@@ -1,8 +1,8 @@
 package compute
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/network"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/network"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 type Compute struct {

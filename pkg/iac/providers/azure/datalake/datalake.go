@@ -1,7 +1,7 @@
 package datalake
 
 import (
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 type DataLake struct {

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 var centralURL, _ = url.Parse("https://repo.maven.apache.org/maven2/")

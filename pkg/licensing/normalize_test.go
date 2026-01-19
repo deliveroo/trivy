@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/trivy/pkg/licensing"
-	"github.com/aquasecurity/trivy/pkg/licensing/expression"
+	"github.com/deliveroo/trivy/pkg/licensing"
+	"github.com/deliveroo/trivy/pkg/licensing/expression"
 )
 
 func TestSplitLicenses(t *testing.T) {

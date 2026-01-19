@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/aquasecurity/go-version/pkg/semver"
-	"github.com/aquasecurity/trivy/pkg/clock"
+	"github.com/deliveroo/trivy/pkg/clock"
 )
 
 func TestAnnouncementShouldDisplay(t *testing.T) {

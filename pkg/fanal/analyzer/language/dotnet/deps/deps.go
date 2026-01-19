@@ -7,10 +7,10 @@ import (
 
 	"golang.org/x/xerrors"
 
-	core "github.com/aquasecurity/trivy/pkg/dependency/parser/dotnet/core_deps"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/language"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	core "github.com/deliveroo/trivy/pkg/dependency/parser/dotnet/core_deps"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer/language"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 func init() {

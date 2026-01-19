@@ -12,8 +12,8 @@ import (
 	"github.com/open-policy-agent/opa/v1/ast"
 
 	checks "github.com/aquasecurity/trivy-checks"
-	"github.com/aquasecurity/trivy/pkg/iac/rules"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/iac/rules"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 var LoadAndRegister = sync.OnceFunc(func() {

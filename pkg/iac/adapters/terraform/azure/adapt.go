@@ -1,22 +1,22 @@
 package azure
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/appservice"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/authorization"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/compute"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/container"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/cosmosdb"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/database"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/datafactory"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/datalake"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/keyvault"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/monitor"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/network"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/securitycenter"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/storage"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/synapse"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/appservice"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/authorization"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/compute"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/container"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/cosmosdb"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/database"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/datafactory"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/datalake"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/keyvault"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/monitor"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/network"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/securitycenter"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/storage"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/synapse"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) azure.Azure {

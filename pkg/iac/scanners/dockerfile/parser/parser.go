@@ -10,7 +10,7 @@ import (
 	"github.com/moby/buildkit/frontend/dockerfile/parser"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/dockerfile"
+	"github.com/deliveroo/trivy/pkg/iac/providers/dockerfile"
 )
 
 type Parser struct {

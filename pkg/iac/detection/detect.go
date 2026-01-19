@@ -11,9 +11,9 @@ import (
 	"github.com/xeipuuv/gojsonschema"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/terraformplan/snapshot"
-	"github.com/aquasecurity/trivy/pkg/log"
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/terraformplan/snapshot"
+	"github.com/deliveroo/trivy/pkg/log"
+	xjson "github.com/deliveroo/trivy/pkg/x/json"
 )
 
 type FileType string

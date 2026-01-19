@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/dart/pub"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/dependency/parser/dart/pub"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 func TestParser_Parse(t *testing.T) {

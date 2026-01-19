@@ -1,6 +1,6 @@
 package types
 
-import xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+import xslices "github.com/deliveroo/trivy/pkg/x/slices"
 
 type LicenseType string
 

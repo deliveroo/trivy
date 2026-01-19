@@ -7,12 +7,12 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/fsutils"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/orderedmap"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/fsutils"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/orderedmap"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/vars"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/set"
 )
 
 const (

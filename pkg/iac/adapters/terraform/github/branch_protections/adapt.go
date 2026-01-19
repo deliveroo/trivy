@@ -1,8 +1,8 @@
 package branch_protections
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/github"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/providers/github"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) []github.BranchProtection {

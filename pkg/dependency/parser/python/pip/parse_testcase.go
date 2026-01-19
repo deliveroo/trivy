@@ -1,6 +1,6 @@
 package pip
 
-import ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+import ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
 
 var (
 	requirementsCompatibleVersions = []ftypes.Package{

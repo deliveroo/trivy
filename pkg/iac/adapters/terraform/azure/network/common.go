@@ -1,10 +1,10 @@
 package network
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/common"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/network"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/common"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/network"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func AdaptSGRule(ruleBlock *terraform.Block) network.SecurityGroupRule {

@@ -4,10 +4,10 @@ import (
 	"testing"
 
 	"github.com/aquasecurity/iamgo"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/cloudformation/testutil"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/sqs"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/cloudformation/testutil"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/iam"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/sqs"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func TestAdapt(t *testing.T) {

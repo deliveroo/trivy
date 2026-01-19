@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/aquasecurity/go-version/pkg/semver"
-	"github.com/aquasecurity/trivy/pkg/clock"
+	"github.com/deliveroo/trivy/pkg/clock"
 )
 
 // flexibleTime is a custom time type that can handle

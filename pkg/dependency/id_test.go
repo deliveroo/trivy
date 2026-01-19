@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/dependency"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 func TestID(t *testing.T) {

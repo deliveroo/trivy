@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
+	"github.com/deliveroo/trivy/pkg/utils/fsutils"
 )
 
 // TestPlugin tests Trivy plugins.

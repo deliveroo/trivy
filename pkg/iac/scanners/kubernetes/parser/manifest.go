@@ -6,7 +6,7 @@ import (
 	"github.com/samber/lo"
 	"gopkg.in/yaml.v3"
 
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	xjson "github.com/deliveroo/trivy/pkg/x/json"
 )
 
 type Manifest struct {

@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	checks "github.com/aquasecurity/trivy-checks"
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
-	"github.com/aquasecurity/trivy/pkg/iac/rules"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
+	"github.com/deliveroo/trivy/pkg/iac/rego"
+	"github.com/deliveroo/trivy/pkg/iac/rules"
+	"github.com/deliveroo/trivy/pkg/iac/scan"
 )
 
 func Test_EmbeddedLoading(t *testing.T) {

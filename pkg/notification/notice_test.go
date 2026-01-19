@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/flag"
+	"github.com/deliveroo/trivy/pkg/flag"
 )
 
 func TestPrintNotices(t *testing.T) {

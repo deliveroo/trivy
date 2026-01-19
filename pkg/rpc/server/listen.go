@@ -16,15 +16,15 @@ import (
 	"golang.org/x/xerrors"
 
 	"github.com/aquasecurity/trivy-db/pkg/metadata"
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
-	"github.com/aquasecurity/trivy/pkg/version"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
-	rpcCache "github.com/aquasecurity/trivy/rpc/cache"
-	rpcScanner "github.com/aquasecurity/trivy/rpc/scanner"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/db"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/utils/fsutils"
+	"github.com/deliveroo/trivy/pkg/version"
+	xos "github.com/deliveroo/trivy/pkg/x/os"
+	rpcCache "github.com/deliveroo/trivy/rpc/cache"
+	rpcScanner "github.com/deliveroo/trivy/rpc/scanner"
 )
 
 const updateInterval = 1 * time.Hour

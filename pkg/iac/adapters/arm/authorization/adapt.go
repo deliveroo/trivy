@@ -1,9 +1,9 @@
 package authorization
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/authorization"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/authorization"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/azure"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Adapt(deployment azure.Deployment) authorization.Authorization {

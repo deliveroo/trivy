@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func TestResult_GetCode(t *testing.T) {

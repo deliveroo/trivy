@@ -10,7 +10,7 @@ import (
 	awstypes "github.com/aws/aws-sdk-go-v2/service/ecr/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 type testECRClient interface {

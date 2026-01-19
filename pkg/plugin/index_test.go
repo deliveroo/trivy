@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/plugin"
+	"github.com/deliveroo/trivy/pkg/plugin"
 )
 
 func TestManager_Update(t *testing.T) {

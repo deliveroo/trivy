@@ -1,8 +1,8 @@
 package codebuild
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/codebuild"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/codebuild"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts a CodeBuild instance

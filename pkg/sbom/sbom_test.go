@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/sbom"
+	"github.com/deliveroo/trivy/pkg/sbom"
 )
 
 // Test data constants for SBOM format detection and decoding.

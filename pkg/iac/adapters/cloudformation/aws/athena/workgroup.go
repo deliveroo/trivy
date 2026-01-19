@@ -1,8 +1,8 @@
 package athena
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/athena"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/athena"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
 )
 
 func getWorkGroups(cfFile parser.FileContext) []athena.Workgroup {

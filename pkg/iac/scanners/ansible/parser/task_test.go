@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/vars"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 func TestResolvedTask_MarshalYAML(t *testing.T) {

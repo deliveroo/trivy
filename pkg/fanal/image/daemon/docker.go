@@ -8,7 +8,7 @@ import (
 	"github.com/google/go-containerregistry/pkg/name"
 	"golang.org/x/xerrors"
 
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
+	xos "github.com/deliveroo/trivy/pkg/x/os"
 )
 
 // DockerImage implements v1.Image by extending daemon.Image.

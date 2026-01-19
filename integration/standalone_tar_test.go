@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 // TestTar tests `trivy image --input` with tar archives of container images.

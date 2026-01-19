@@ -5,9 +5,9 @@ import (
 
 	v1 "github.com/google/go-containerregistry/pkg/v1" // nolint: goimports
 
-	"github.com/aquasecurity/trivy/pkg/fanal/image/name"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/sbom/core"
+	"github.com/deliveroo/trivy/pkg/fanal/image/name"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/sbom/core"
 )
 
 // Report represents a scan result

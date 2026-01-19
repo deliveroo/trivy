@@ -6,7 +6,7 @@ import "google/protobuf/empty.proto";
 import "google/protobuf/timestamp.proto";
 import "rpc/common/service.proto";
 
-option go_package = "github.com/aquasecurity/trivy/rpc/cache;cache";
+option go_package = "github.com/deliveroo/trivy/rpc/cache;cache";
 
 service Cache {
   rpc PutArtifact(PutArtifactRequest) returns (google.protobuf.Empty);

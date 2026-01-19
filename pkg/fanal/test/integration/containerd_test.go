@@ -26,14 +26,14 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/applier"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	aimage "github.com/aquasecurity/trivy/pkg/fanal/artifact/image"
-	"github.com/aquasecurity/trivy/pkg/fanal/image"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/fanal/applier"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact"
+	aimage "github.com/deliveroo/trivy/pkg/fanal/artifact/image"
+	"github.com/deliveroo/trivy/pkg/fanal/image"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 func setupContainerd(t *testing.T, ctx context.Context, namespace string) *client.Client {
@@ -354,7 +354,7 @@ func localImageTestWithNamespace(t *testing.T, namespace string) {
 			imageName:  testutil.ImageName("", "vulnimage", ""),
 			tarArchive: "../../../../integration/testdata/fixtures/images/vulnimage.tar.gz",
 			wantMetadata: artifact.ImageMetadata{
-				ID: "sha256:c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
+				ID:        "sha256:c17083664da903e13e9092fa3a3a1aeee2431aa2728298e3dbcec72f26369c41",
 				Reference: testutil.MustParseReference(t, testutil.ImageName("", "vulnimage", "")),
 				DiffIDs: []string{
 					"sha256:ebf12965380b39889c99a9c02e82ba465f887b45975b6e389d42e9e6a3857888",

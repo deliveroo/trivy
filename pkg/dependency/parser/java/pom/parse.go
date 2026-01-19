@@ -22,14 +22,14 @@ import (
 	"golang.org/x/net/html/charset"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/dependency"
-	"github.com/aquasecurity/trivy/pkg/dependency/parser/utils"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	"github.com/deliveroo/trivy/pkg/dependency"
+	"github.com/deliveroo/trivy/pkg/dependency/parser/utils"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/set"
+	xhttp "github.com/deliveroo/trivy/pkg/x/http"
+	xio "github.com/deliveroo/trivy/pkg/x/io"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 type options struct {

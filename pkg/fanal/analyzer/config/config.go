@@ -8,9 +8,9 @@ import (
 	"golang.org/x/xerrors"
 	"k8s.io/utils/strings/slices"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/iac/detection"
-	"github.com/aquasecurity/trivy/pkg/misconf"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/iac/detection"
+	"github.com/deliveroo/trivy/pkg/misconf"
 )
 
 var (

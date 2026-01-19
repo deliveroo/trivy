@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
+	xhttp "github.com/deliveroo/trivy/pkg/x/http"
 )
 
 func TestTraceTransport_RoundTrip(t *testing.T) {

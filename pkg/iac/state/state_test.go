@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/s3"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/s3"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Test_RegoConversion(t *testing.T) {

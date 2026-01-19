@@ -1,8 +1,8 @@
 package sam
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/iam"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 type Function struct {

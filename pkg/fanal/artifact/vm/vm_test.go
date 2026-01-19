@@ -13,17 +13,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/cachetest"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact/vm"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/fanal/walker"
-	"github.com/aquasecurity/trivy/pkg/misconf"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
+	"github.com/deliveroo/trivy/internal/cachetest"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact/vm"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/fanal/walker"
+	"github.com/deliveroo/trivy/pkg/misconf"
+	xio "github.com/deliveroo/trivy/pkg/x/io"
 
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os/alpine"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/pkg/apk"
+	_ "github.com/deliveroo/trivy/pkg/fanal/analyzer/os/alpine"
+	_ "github.com/deliveroo/trivy/pkg/fanal/analyzer/pkg/apk"
 )
 
 const (

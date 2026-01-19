@@ -3,7 +3,7 @@ package terraform
 import (
 	"errors"
 
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 type Modules []*Module

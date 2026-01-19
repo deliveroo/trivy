@@ -3,11 +3,11 @@ package compute
 import (
 	"encoding/base64"
 
-	anetwork "github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure/network"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/compute"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/network"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	anetwork "github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure/network"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/compute"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/network"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 const AzureVirtualMachine = "azurerm_virtual_machine"

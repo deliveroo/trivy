@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/database"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/database"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/azure"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func adaptPostgreSQLServers(deployment azure.Deployment) (databases []database.PostgreSQLServer) {

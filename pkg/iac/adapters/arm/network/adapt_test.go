@@ -3,10 +3,10 @@ package network
 import (
 	"testing"
 
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/arm/adaptertest"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/common"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/network"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/arm/adaptertest"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/common"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/network"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func TestAdapt(t *testing.T) {

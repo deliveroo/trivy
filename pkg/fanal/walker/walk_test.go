@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/utils"
+	"github.com/deliveroo/trivy/pkg/fanal/utils"
 )
 
 func TestSkipFile(t *testing.T) {

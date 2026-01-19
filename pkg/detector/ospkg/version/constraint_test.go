@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/detector/ospkg/version"
+	"github.com/deliveroo/trivy/pkg/detector/ospkg/version"
 )
 
 func TestNewConstraints(t *testing.T) {

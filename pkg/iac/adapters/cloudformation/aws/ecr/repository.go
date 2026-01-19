@@ -4,10 +4,10 @@ import (
 	"errors"
 
 	"github.com/aquasecurity/iamgo"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ecr"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/ecr"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/iam"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func getRepositories(ctx parser.FileContext) (repositories []ecr.Repository) {

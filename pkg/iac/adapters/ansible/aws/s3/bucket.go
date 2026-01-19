@@ -1,9 +1,9 @@
 package s3
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/s3"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/parser"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/s3"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/parser"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 type adapter struct {

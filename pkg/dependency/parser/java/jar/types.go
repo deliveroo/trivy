@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 var ArtifactNotFoundErr = xerrors.New("no artifact found")

@@ -12,15 +12,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/internal/cachetest"
-	"github.com/aquasecurity/trivy/internal/registrytest"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	image2 "github.com/aquasecurity/trivy/pkg/fanal/artifact/image"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/oci"
-	"github.com/aquasecurity/trivy/pkg/rekortest"
-	"github.com/aquasecurity/trivy/pkg/sbom"
+	"github.com/deliveroo/trivy/internal/cachetest"
+	"github.com/deliveroo/trivy/internal/registrytest"
+	"github.com/deliveroo/trivy/pkg/fanal/artifact"
+	image2 "github.com/deliveroo/trivy/pkg/fanal/artifact/image"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/oci"
+	"github.com/deliveroo/trivy/pkg/rekortest"
+	"github.com/deliveroo/trivy/pkg/sbom"
 )
 
 func TestMain(m *testing.M) {

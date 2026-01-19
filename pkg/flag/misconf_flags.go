@@ -5,10 +5,10 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/policy"
-	xstrings "github.com/aquasecurity/trivy/pkg/x/strings"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/policy"
+	xstrings "github.com/deliveroo/trivy/pkg/x/strings"
 )
 
 // e.g. config yaml:

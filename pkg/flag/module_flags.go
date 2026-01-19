@@ -3,7 +3,7 @@ package flag
 import (
 	"path/filepath"
 
-	"github.com/aquasecurity/trivy/pkg/utils/fsutils"
+	"github.com/deliveroo/trivy/pkg/utils/fsutils"
 )
 
 // e.g. config yaml

@@ -1,9 +1,9 @@
 package rds
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/rds"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/rds"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func getParameterGroups(ctx parser.FileContext) (parametergroups []rds.ParameterGroups) {

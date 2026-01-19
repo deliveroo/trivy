@@ -6,8 +6,8 @@ import (
 	"github.com/open-policy-agent/opa/v1/ast"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/trivy/pkg/iac/framework"
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
+	"github.com/deliveroo/trivy/pkg/iac/framework"
+	"github.com/deliveroo/trivy/pkg/iac/rego"
 )
 
 func TestTrivyVersionFilter(t *testing.T) {

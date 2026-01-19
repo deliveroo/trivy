@@ -1,10 +1,10 @@
 package digitalocean
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/digitalocean/compute"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/digitalocean/spaces"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/digitalocean"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/digitalocean/compute"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/digitalocean/spaces"
+	"github.com/deliveroo/trivy/pkg/iac/providers/digitalocean"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) digitalocean.DigitalOcean {

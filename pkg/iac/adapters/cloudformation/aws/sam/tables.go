@@ -1,9 +1,9 @@
 package sam
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/sam"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/sam"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func getSimpleTables(cfFile parser.FileContext) (tables []sam.SimpleTable) {

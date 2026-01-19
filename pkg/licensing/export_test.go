@@ -1,6 +1,6 @@
 package licensing
 
-import "github.com/aquasecurity/trivy/pkg/licensing/expression"
+import "github.com/deliveroo/trivy/pkg/licensing/expression"
 
 // Bridge to expose licensing internals to tests in the licensing_test package.
 

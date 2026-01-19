@@ -1,7 +1,7 @@
 package ec2
 
 import (
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 type LaunchConfiguration struct {

@@ -13,11 +13,11 @@ import (
 	"github.com/open-policy-agent/opa/v1/rego"
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/iac/framework"
-	"github.com/aquasecurity/trivy/pkg/iac/providers"
-	"github.com/aquasecurity/trivy/pkg/iac/scan"
-	"github.com/aquasecurity/trivy/pkg/iac/severity"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/framework"
+	"github.com/deliveroo/trivy/pkg/iac/providers"
+	"github.com/deliveroo/trivy/pkg/iac/scan"
+	"github.com/deliveroo/trivy/pkg/iac/severity"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 const annotationScopePackage = "package"

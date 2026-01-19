@@ -3,9 +3,9 @@ package terraform
 import (
 	"os"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/config"
-	"github.com/aquasecurity/trivy/pkg/iac/detection"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer/config"
+	"github.com/deliveroo/trivy/pkg/iac/detection"
 )
 
 const (

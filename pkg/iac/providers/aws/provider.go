@@ -1,6 +1,6 @@
 package aws
 
-import "github.com/aquasecurity/trivy/pkg/iac/types"
+import "github.com/deliveroo/trivy/pkg/iac/types"
 
 type TerraformProvider struct {
 	Metadata types.Metadata

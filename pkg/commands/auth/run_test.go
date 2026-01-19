@@ -11,9 +11,9 @@ import (
 
 	testauth "github.com/aquasecurity/testdocker/auth"
 	"github.com/aquasecurity/testdocker/registry"
-	"github.com/aquasecurity/trivy/pkg/commands/auth"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/flag"
+	"github.com/deliveroo/trivy/pkg/commands/auth"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/flag"
 )
 
 func TestLogin(t *testing.T) {

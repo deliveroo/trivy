@@ -1,18 +1,18 @@
 package terraform
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/aws"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/azure"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/cloudstack"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/digitalocean"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/github"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/google"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/kubernetes"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/nifcloud"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/openstack"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/oracle"
-	"github.com/aquasecurity/trivy/pkg/iac/state"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/aws"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/azure"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/cloudstack"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/digitalocean"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/github"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/google"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/kubernetes"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/nifcloud"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/openstack"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/oracle"
+	"github.com/deliveroo/trivy/pkg/iac/state"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
 )
 
 func Adapt(modules terraform.Modules) *state.State {

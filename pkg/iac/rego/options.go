@@ -4,8 +4,8 @@ import (
 	"io"
 	"io/fs"
 
-	"github.com/aquasecurity/trivy/pkg/iac/framework"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
+	"github.com/deliveroo/trivy/pkg/iac/framework"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/options"
 )
 
 func WithPolicyReader(readers ...io.Reader) options.ScannerOption {

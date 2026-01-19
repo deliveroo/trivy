@@ -9,9 +9,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/mapfs"
-	xos "github.com/aquasecurity/trivy/pkg/x/os"
-	"github.com/aquasecurity/trivy/pkg/x/sync"
+	"github.com/deliveroo/trivy/pkg/mapfs"
+	xos "github.com/deliveroo/trivy/pkg/x/os"
+	"github.com/deliveroo/trivy/pkg/x/sync"
 )
 
 // CompositeFS contains multiple filesystems for post-analyzers

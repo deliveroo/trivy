@@ -8,11 +8,11 @@ import (
 
 	"github.com/aquasecurity/trivy-db/pkg/db"
 	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/azure"
-	osver "github.com/aquasecurity/trivy/pkg/detector/ospkg/version"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/scan/utils"
-	"github.com/aquasecurity/trivy/pkg/types"
+	osver "github.com/deliveroo/trivy/pkg/detector/ospkg/version"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/scan/utils"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 // Scanner implements the CBL-Mariner scanner

@@ -1,9 +1,9 @@
 package database
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/database"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/database"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func adaptPostgreSQLServers(modules terraform.Modules) []database.PostgreSQLServer {

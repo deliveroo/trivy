@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/vars"
 )
 
 func TestEvaluateTemplate(t *testing.T) {

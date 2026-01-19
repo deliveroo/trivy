@@ -13,9 +13,9 @@ import (
 	"github.com/open-policy-agent/opa/v1/bundle"
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
-	"github.com/aquasecurity/trivy/pkg/version/doc"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/set"
+	"github.com/deliveroo/trivy/pkg/version/doc"
 )
 
 var builtinNamespaces = set.New("builtin", "defsec", "appshield")

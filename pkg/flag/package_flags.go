@@ -1,9 +1,9 @@
 package flag
 
 import (
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
-	xstrings "github.com/aquasecurity/trivy/pkg/x/strings"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/types"
+	xstrings "github.com/deliveroo/trivy/pkg/x/strings"
 )
 
 var (

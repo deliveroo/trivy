@@ -1,8 +1,8 @@
 package database
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/database"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/database"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/azure"
 )
 
 func adaptMariaDBServers(deployment azure.Deployment) (mariaDbServers []database.MariaDBServer) {

@@ -15,7 +15,7 @@ import (
 	"github.com/aquasecurity/testdocker/engine"
 	"github.com/aquasecurity/testdocker/registry"
 	"github.com/aquasecurity/testdocker/tarfile"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
 )
 
 func setupEngineAndRegistry(t *testing.T) (*httptest.Server, *httptest.Server) {

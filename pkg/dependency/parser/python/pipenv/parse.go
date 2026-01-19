@@ -6,9 +6,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	xio "github.com/aquasecurity/trivy/pkg/x/io"
-	xjson "github.com/aquasecurity/trivy/pkg/x/json"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	xio "github.com/deliveroo/trivy/pkg/x/io"
+	xjson "github.com/deliveroo/trivy/pkg/x/json"
 )
 
 type lockFile struct {

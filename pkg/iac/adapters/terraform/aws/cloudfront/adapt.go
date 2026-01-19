@@ -1,9 +1,9 @@
 package cloudfront
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/cloudfront"
-	"github.com/aquasecurity/trivy/pkg/iac/terraform"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/cloudfront"
+	"github.com/deliveroo/trivy/pkg/iac/terraform"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Adapt(modules terraform.Modules) cloudfront.Cloudfront {

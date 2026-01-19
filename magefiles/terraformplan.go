@@ -15,7 +15,7 @@ import (
 	"github.com/hashicorp/terraform-exec/tfexec"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/internal/testutil"
 )
 
 const (

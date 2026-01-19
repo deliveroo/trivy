@@ -10,7 +10,7 @@ import (
 
 	"github.com/hashicorp/go-getter"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 type remoteResolver struct {

@@ -1,7 +1,7 @@
 package parser
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/cftypes"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/cftypes"
 )
 
 func ResolveOr(property *Property) (resolved *Property, success bool) {

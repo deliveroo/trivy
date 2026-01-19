@@ -3,10 +3,10 @@ package ec2
 import (
 	"testing"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/tftestutil"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ec2"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/tftestutil"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/ec2"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func TestAdaptAMIs(t *testing.T) {

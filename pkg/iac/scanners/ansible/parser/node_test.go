@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/orderedmap"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/orderedmap"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/vars"
 )
 
 func mustNodeFromYAML(t *testing.T, src string) *Node {

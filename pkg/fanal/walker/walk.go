@@ -3,7 +3,7 @@ package walker
 import (
 	"os"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
+	"github.com/deliveroo/trivy/pkg/fanal/analyzer"
 )
 
 const defaultSizeThreshold = int64(100) << 20 // 200MB

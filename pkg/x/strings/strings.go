@@ -3,7 +3,7 @@ package strings
 import (
 	"fmt"
 
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 type String interface {

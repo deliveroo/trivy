@@ -1,9 +1,9 @@
 package database
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/database"
-	azure2 "github.com/aquasecurity/trivy/pkg/iac/scanners/azure"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/database"
+	azure2 "github.com/deliveroo/trivy/pkg/iac/scanners/azure"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func adaptMSSQLServers(deployment azure2.Deployment) (msSQlServers []database.MSSQLServer) {

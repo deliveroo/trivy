@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"maps"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/log"
 )
 
 // VarPriority represents the priority level of a variable.

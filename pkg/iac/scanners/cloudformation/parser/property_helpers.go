@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/cftypes"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/cftypes"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func (p *Property) IsNil() bool {

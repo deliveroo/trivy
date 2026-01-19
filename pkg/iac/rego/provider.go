@@ -5,7 +5,7 @@ import (
 	"io/fs"
 	"sync"
 
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/options"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/options"
 )
 
 func WithRegoScanner(rs *Scanner) options.ScannerOption {

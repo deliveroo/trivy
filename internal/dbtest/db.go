@@ -13,7 +13,7 @@ import (
 	trivydb "github.com/aquasecurity/trivy-db/pkg/db"
 	"github.com/aquasecurity/trivy-db/pkg/metadata"
 	jdb "github.com/aquasecurity/trivy-java-db/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/db"
+	"github.com/deliveroo/trivy/pkg/db"
 )
 
 // InitDB initializes testing database.

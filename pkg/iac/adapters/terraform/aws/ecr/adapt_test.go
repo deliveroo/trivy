@@ -7,11 +7,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/aquasecurity/iamgo"
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/terraform/tftestutil"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/ecr"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/iam"
-	iacTypes "github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/terraform/tftestutil"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/ecr"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/iam"
+	iacTypes "github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func Test_adaptRepository(t *testing.T) {

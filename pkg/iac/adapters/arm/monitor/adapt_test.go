@@ -3,8 +3,8 @@ package monitor
 import (
 	"testing"
 
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/arm/adaptertest"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/monitor"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/arm/adaptertest"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/monitor"
 )
 
 func TestAdapt(t *testing.T) {

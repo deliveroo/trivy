@@ -1,8 +1,8 @@
 package rds
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/rds"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/rds"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts an RDS instance

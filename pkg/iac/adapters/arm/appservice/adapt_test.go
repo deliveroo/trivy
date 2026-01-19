@@ -3,9 +3,9 @@ package appservice
 import (
 	"testing"
 
-	"github.com/aquasecurity/trivy/pkg/iac/adapters/arm/adaptertest"
-	"github.com/aquasecurity/trivy/pkg/iac/providers/azure/appservice"
-	"github.com/aquasecurity/trivy/pkg/iac/types"
+	"github.com/deliveroo/trivy/pkg/iac/adapters/arm/adaptertest"
+	"github.com/deliveroo/trivy/pkg/iac/providers/azure/appservice"
+	"github.com/deliveroo/trivy/pkg/iac/types"
 )
 
 func TestAdapt(t *testing.T) {

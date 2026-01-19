@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/trivy/internal/testutil"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/fsutils"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/inventory"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/ansible/vars"
+	"github.com/deliveroo/trivy/internal/testutil"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/fsutils"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/inventory"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/ansible/vars"
 )
 
 func TestLoader_Load(t *testing.T) {

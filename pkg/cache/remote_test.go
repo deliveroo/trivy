@@ -14,11 +14,11 @@ import (
 	"golang.org/x/xerrors"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
-	rpcCache "github.com/aquasecurity/trivy/rpc/cache"
-	rpcScanner "github.com/aquasecurity/trivy/rpc/scanner"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/fanal/types"
+	xhttp "github.com/deliveroo/trivy/pkg/x/http"
+	rpcCache "github.com/deliveroo/trivy/rpc/cache"
+	rpcScanner "github.com/deliveroo/trivy/rpc/scanner"
 )
 
 type mockCacheServer struct {

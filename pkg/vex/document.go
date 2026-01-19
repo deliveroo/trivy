@@ -11,10 +11,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/sbom"
-	"github.com/aquasecurity/trivy/pkg/sbom/cyclonedx"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/sbom"
+	"github.com/deliveroo/trivy/pkg/sbom/cyclonedx"
+	"github.com/deliveroo/trivy/pkg/types"
 )
 
 func NewDocument(filePath string, report *types.Report) (VEX, error) {

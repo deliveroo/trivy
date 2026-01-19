@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/iac/rego"
+	"github.com/deliveroo/trivy/pkg/iac/rego"
 )
 
 func Test_OS_FS(t *testing.T) {

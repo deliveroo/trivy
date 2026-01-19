@@ -5,14 +5,14 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/cache"
-	"github.com/aquasecurity/trivy/pkg/commands/operation"
-	"github.com/aquasecurity/trivy/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/module"
-	rpcServer "github.com/aquasecurity/trivy/pkg/rpc/server"
-	xhttp "github.com/aquasecurity/trivy/pkg/x/http"
+	"github.com/deliveroo/trivy/pkg/cache"
+	"github.com/deliveroo/trivy/pkg/commands/operation"
+	"github.com/deliveroo/trivy/pkg/db"
+	"github.com/deliveroo/trivy/pkg/flag"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/module"
+	rpcServer "github.com/deliveroo/trivy/pkg/rpc/server"
+	xhttp "github.com/deliveroo/trivy/pkg/x/http"
 )
 
 // Run runs the scan

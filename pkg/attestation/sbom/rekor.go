@@ -10,9 +10,9 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/attestation"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/rekor"
+	"github.com/deliveroo/trivy/pkg/attestation"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/rekor"
 )
 
 var ErrNoSBOMAttestation = xerrors.New("no SBOM attestation found")

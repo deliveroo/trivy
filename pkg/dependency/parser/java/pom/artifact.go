@@ -5,11 +5,11 @@ import (
 	"strings"
 	"sync"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/set"
-	"github.com/aquasecurity/trivy/pkg/version/doc"
-	xslices "github.com/aquasecurity/trivy/pkg/x/slices"
+	ftypes "github.com/deliveroo/trivy/pkg/fanal/types"
+	"github.com/deliveroo/trivy/pkg/log"
+	"github.com/deliveroo/trivy/pkg/set"
+	"github.com/deliveroo/trivy/pkg/version/doc"
+	xslices "github.com/deliveroo/trivy/pkg/x/slices"
 )
 
 var (

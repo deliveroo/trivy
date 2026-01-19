@@ -1,8 +1,8 @@
 package mq
 
 import (
-	"github.com/aquasecurity/trivy/pkg/iac/providers/aws/mq"
-	"github.com/aquasecurity/trivy/pkg/iac/scanners/cloudformation/parser"
+	"github.com/deliveroo/trivy/pkg/iac/providers/aws/mq"
+	"github.com/deliveroo/trivy/pkg/iac/scanners/cloudformation/parser"
 )
 
 // Adapt adapts an MQ instance
